@@ -1,0 +1,5 @@
+-   id: python-filename-linter
+    name: Python Filename Linter
+    description: This hook checks that the file and folder names follow snake_case properly
+    entry: lint_filenames
+    language: python

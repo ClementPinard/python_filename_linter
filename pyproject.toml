@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-filename-linter"
+version = "0.1.0"
+description = "Checks that your project python file names follow the right convention"
+authors = ["Clément Pinard <clement.pinard@xxii.fr>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_filename_linter"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.scripts]
+lint_filenames = 'python_filename_linter.main:filename_linter_entryponint'
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
