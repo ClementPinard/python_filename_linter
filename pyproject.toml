@@ -11,7 +11,7 @@ packages = [{include = "python_filename_linter"}]
 python = "^3.9"
 
 [tool.poetry.scripts]
-lint_filenames = 'python_filename_linter.main:filename_linter_entryponint'
+lint_python_filenames = 'python_filename_linter.main:filename_linter_entryponint'
 
 
 [tool.poetry.group.test.dependencies]

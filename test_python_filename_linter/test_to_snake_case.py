@@ -1,4 +1,5 @@
 import pytest
+
 from python_filename_linter.main import to_snake_case
 
 
